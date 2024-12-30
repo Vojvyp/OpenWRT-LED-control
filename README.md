@@ -1,6 +1,6 @@
 # Ovládání LED na základě připojení k portu 443 pomocí `nftables` na OpenWRT
 
-Tento návod ukazuje, jak nakonfigurovat `nftables` na OpenWRT zařízení, aby se ovládala LED (`indicator-1`) na základě připojení k portu 443 (HTTPS). LED se rozsvítí při připojení a zhasne, když připojení skončí.
+Tento návod ukazuje, jak nakonfigurovat `nftables` na OpenWRT zařízení, aby se ovládala LED (`rgb:indicator-1`) na základě připojení k portu 443 (HTTPS). LED se rozsvítí při připojení a zhasne, když připojení skončí.
 
 ## Požadavky
 
