@@ -17,7 +17,7 @@ Tento návod ukazuje, jak nakonfigurovat `nftables` na OpenWRT zařízení, aby 
    Spusťte následující příkaz pro vytvoření souboru:
 
    ```bash
-   sudo nano /etc/nftables.d/99-https-led.nft
+   vi /etc/nftables.d/99-https-led.nft
    
 2. **Přidejte následující pravidla do souboru:**
 
@@ -53,7 +53,7 @@ Vysvětlení:
 Po uložení souboru načtěte pravidla do `nftables`:
 
 ```bash
-sudo nft -f /etc/nftables.d/99-https-led.nft
+nft -f /etc/nftables.d/99-https-led.nft
 ```
 ## Krok 2: Vytvoření skriptu pro ovládání LED 
 
