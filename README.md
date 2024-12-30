@@ -43,10 +43,10 @@ table inet filter {
 }
 ```
 Vysvětlení:
-    * `ct state new`: Detekuje nová připojení na port 443.
-    * `log prefix "HTTPS_CONNECTED: "`: Záznam připojení s prefixem "HTTPS_CONNECTED".
-    * `ct state established`: Sleduje existující připojení a ukončuje je.
-    * `log prefix "HTTPS_DISCONNECTED: "`: Loguje odpojení z portu 443.
+*   `ct state new`: Detekuje nová připojení na port 443.
+*   `log prefix "HTTPS_CONNECTED: "`: Záznam připojení s prefixem "HTTPS_CONNECTED".
+*   `ct state established`: Sleduje existující připojení a ukončuje je.
+*   `log prefix "HTTPS_DISCONNECTED: "`: Loguje odpojení z portu 443.
 
 3. **Načtěte konfiguraci `nftables`:**
 
